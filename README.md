@@ -47,6 +47,7 @@ An algorithmic trading simulator that uses the **Golden Cross** strategy (50-day
 task1/
 ├── TradingAnalyzer.py    # Main trading logic class
 ├── user.py               # User interface for interaction
+├── requirements.txt      # Python dependencies
 └── README.md             # Documentation
 ```
 
@@ -61,7 +62,7 @@ cd task1
 2. Install required dependencies:
 
 ```bash
-pip install yfinance pandas
+pip install -r requirements.txt
 ```
 
 ### ▶️ How to Run
@@ -135,7 +136,7 @@ An intelligent AI assistant that helps users make informed decisions when buying
 - **OpenAI SDK** - LLM integration via OpenRouter
 - **psycopg2** - PostgreSQL adapter
 - **python-dotenv** - Environment variable management
-- **BeautifulSoup** / **Scrapy** - Web scraping (GSMArena)
+- **requests** - HTTP client library
 
 ### 📂 Project Structure
 
@@ -147,6 +148,7 @@ task2/
 │   ├── .env.example      # Environment variables template
 │   └── requirements.txt  # Backend dependencies
 ├── ai_assistant.py       # User interface client
+├── requirements.txt      # Client dependencies
 └── README.md             # Documentation
 ```
 
@@ -158,18 +160,17 @@ task2/
 cd task2
 ```
 
-2. Install backend dependencies:
+2. Install client dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Install backend dependencies:
 
 ```bash
 cd backend
-pip install fastapi uvicorn psycopg2-binary openai python-dotenv pydantic
-```
-
-3. Install client dependencies:
-
-```bash
-cd ..
-pip install requests
+pip install -r requirements.txt
 ```
 
 ### ⚙️ Configuration
@@ -322,6 +323,7 @@ Ask questions about Samsung phones.
 ├── task1/
 │   ├── TradingAnalyzer.py
 │   ├── user.py
+│   ├── requirements.txt
 │   └── README.md
 ├── task2/
 │   ├── backend/
@@ -330,6 +332,7 @@ Ask questions about Samsung phones.
 │   │   ├── .env.example
 │   │   └── requirements.txt
 │   ├── ai_assistant.py
+│   ├── requirements.txt
 │   └── README.md
 └── README.md (this file)
 ```
