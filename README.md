@@ -6,7 +6,7 @@ A dual-project repository featuring an **Algorithmic Trading Simulator** and a *
 
 ## 🎥 Video Demonstration
 
-📹 **Watch the demo:** [Google Drive Video Link](YOUR_GOOGLE_DRIVE_LINK_HERE)
+📹 **Watch the demo:** [Google Drive Video Link](https://drive.google.com/file/d/1cXG1dP6Fy2klKtKVl7So_v1KaVwJN2vt/view?usp=sharing)
 
 ---
 
@@ -361,8 +361,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Your Name**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/Ishmam-Zahin)
+- Email: ishmamzahin404@gmail.com
 
 ---
 

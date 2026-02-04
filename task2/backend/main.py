@@ -113,7 +113,6 @@ def ask(req: AskQuestion):
         message = get_details_message(matched_models[0])
         return {"message": message}
     message = ask_LLM(question, matched_models)
-    print(message)
     return {"message": message}
 
 
